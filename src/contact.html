@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/style.css" />
+    <title>Falih Dzakwan Zuhdi</title>
+</head>
+<body>
+  <header class="container">
+    <nav class="page-header">
+      <div class="logo">
+        <a href="#">FD</a>
+      </div>
+      <input type="checkbox" id="click" />
+
+      <label for="click" class="mainicon">
+        <div class="menu">
+          <i class="bx bx-menu"></i>
+        </div>
+      </label>
+      <ul>
+        <li><a href="../index.html" style="--navAni: 1">Home</a></li>
+        <li><a href="about.html" style="--navAni: 2">About</a></li>
+        <li><a href="skills.html" style="--navAni: 3">Skills</a></li>
+        <li>
+          <a href="portfolio.html"  style="--navAni: 4">Portfolio</a>
+        </li>
+        <li><a href="#" class="active" style="--navAni: 5">Contact</a></li>
+      </ul>
+      <label class="mode">
+        <input type="checkbox" id="darkModeToggle" />
+        <i class="bx bxs-moon"></i>
+      </label>
+    </nav>
+  </header>
+
+    <section id="contact" class="container">
+        <div class="contact">
+          <h2>Contact</h2>
+          <p class="contact-bio">
+            If you are interested in collaborating with me or want to know more about me, please fill out the following form and send me your message. I will respond to your message promptly and discuss it with you. Thank you.
+          </p>
+          <form class="contact-form" method="POST" id="contact-form">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Enter your email..." />
+              <span id="email-error" class="error-message"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Enter your message..." rows="5"></textarea>
+              <span id="message-error" class="error-message"></span>
+            </div>
+            <div id="message-sent" class="message-sent">
+              Email successfully sent. Thank you.
+            </div>
+            <div id="message-error" class="message-error"></div>
+            <button type="submit" class="submit-button">Send</button>
+          </form>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer">
+          <div class="footer-logo">
+            <a href="#">FD</a>
+          </div>
+          <div class="footer-info">
+            <a href="#" class="info">
+              <i class="bx bx-mail-send"></i>
+              <span>falihdzakwan028@gmail.com</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/falihdzakwanzuhdi/"
+              target="_blank"
+              class="info"
+            >
+              <i class="bx bxl-linkedin"></i>
+              <span>falihdzakwanzuhdi</span>
+            </a>
+            <a
+              href="https://www.instagram.com/falihdzakwanz/"
+              target="_blank"
+              class="info"
+            >
+              <i class="bx bxl-instagram"></i>
+              <span>falihdzakwanz</span>
+            </a>
+            <a
+              href="https://www.github.com/falihdzakwanz/"
+              target="_blank"
+              class="info"
+            >
+              <i class="bx bxl-github"></i>
+              <span>falihdzakwanz</span>
+            </a>
+          </div>
+        </div>
+      </footer>
+  
+      <script src="../script/index.js" type="application/javascript"></script>
+</body>
+</html>
